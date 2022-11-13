@@ -12,12 +12,14 @@ for i in string:
         for j in alpha:
             if i.lower()==j:
                 strlist.append(beta[gama])
+                break
             else:
                 gama+=1
     else:
         for j in beta:
             if i.lower()==j:
                 strlist.append(alpha[gama])
+                break
             else:
                 gama+=1
 print(string)                
